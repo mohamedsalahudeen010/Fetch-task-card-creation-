@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(198, 184, 184, 0.507);
+}
+.container{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.628) ,silver,rgb(175, 158, 58));
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90vw;
+    
+}
+
+.card{
+    background-image: linear-gradient(to right,rgb(173, 161, 84),rgba(40, 38, 38, 0.74));
+    width: 22vw;
+    height: 85vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.card-header{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: black;
+    color: blanchedalmond;
+    width: auto;
+    height: 10%;
+    border-radius: 10rem;
+}
+.flag{
+    margin: 1rem auto;
+    width: 80%;
+    height: 30%;
+}
+
+.btn{
+    width: 60%;
+    padding: 0.5rem;
+    background-color: black;
+    color:rgb(173, 161, 84) ;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(208, 187, 228);
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+#temp{
+    font-weight: bold;
+   padding-bottom: 1rem;
+}
